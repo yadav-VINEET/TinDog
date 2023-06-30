@@ -1,0 +1,163 @@
+
+/* NOTE:  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: White;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding-left: 10%;
+  color: white;
+  font-size: 3rem;
+}
+
+.navigation {
+  padding-right: 10%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.col-lg-6 {
+  padding: 10%;
+}
+
+.btn {
+  margin: 5% 2% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.features {
+  padding: 5rem 2%;
+}
+
+.col-lg-4 {
+  padding-bottom: 2rem;
+}
+
+.icon {
+  color: #ff4c68;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+#pricing {
+  margin-top: 5rem;
+}
+
+/* to take notes type ctrl+/  */
+.testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  margin: 4%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.press-logo {
+  width: 15%;
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 7% 10% 40% 10%;
+}
+
+.card {
+  width: 100%;
+}
+
+.row {
+  margin: 5% 10%;
+}
+
+.card-title {
+  color: black;
+}
+
+/* NOTE: Media query is used when we want different funcionality according to different conditions  */
+@media (max-width : 1200px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+}
+
+
+
+.new {
+  background-color: #ff4c68;
+  margin-bottom: 0;
+  height: 40%;
+}
+
+.cta {
+  margin: 5%;
+  padding-top: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.endnote {
+  font-size: 4rem;
+  font-weight: bold;
+  width: 60%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+#footer {
+  margin: 6rem auto;
+  font-size: 1.5rem
+}
